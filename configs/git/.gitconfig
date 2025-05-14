@@ -1,0 +1,22 @@
+[user]
+	name = 54fire
+	email = 54fireljw@gmail.com
+
+[core]
+  editor = vim
+  pager = less
+
+[credential]
+    helper = store
+
+[alias]
+	clean-merged = !git branch --merged main | grep -vE '^\\*|main|master' | xargs git branch -d
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  dtd = difftool --dir-diff
+
+[diff]
+  tool = bc
+
+[difftool "bc"]
+  cmd = '/mnt/c/Softwares/BeyondCompare5/BCompare.exe' $(wslpath -am $LOCAL) $(wslpath -am $REMOTE)
+
