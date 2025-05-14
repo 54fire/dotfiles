@@ -20,11 +20,11 @@ install_zsh() {
 install_plugin() {
   local repo_url=$1
   local plugin_name=$(basename -s .git "$repo_url")
-  local plugin_path="${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/${plugin_name}"
+  local plugin_path=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/${plugin_name}
 
   if [ ! -d "$plugin_path" ]; then
     echo "Installing $plugin_name..."
-    git clone "$repo_url" "$plugin_path"
+    git clone $repo_url $plugin_path
   else
     echo "$plugin_name already installed."
   fi
