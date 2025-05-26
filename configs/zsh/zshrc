@@ -135,7 +135,7 @@ function unset-wsl-proxy() {
 }
 
 if grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null ; then
-  alias e="explorer.exe ."
+  alias e="powershell.exe start explorer.exe ."
   alias setproxy=set-wsl-proxy
   alias usetproxy=unset-wsl-proxy
 fi
