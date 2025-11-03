@@ -1,0 +1,16 @@
+# Allegro script
+#	file: F:/zhibo/PCB/HI3518/PCB/placeall.scr
+#	start time: Tue May 05 19:19:01 2020
+#	Version: 16.6-2015 S102 (v16-6-112HN) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 371544
+quickplace 
+setwindow form.quickplc
+FORM quickplc place  
+FORM quickplc done  
+setwindow pcb
+placementedit 
+
+#	stop time: Tue May 05 19:19:32 2020

@@ -1,0 +1,19 @@
+# Allegro script
+#	file: C:/Cadence/SPB_17.4/share/local/pcb/scripts/zz.scr
+#	start time: Wed Jun 15 16:20:23 2022
+#	Version: 17.4-2019 S029 (4026063) Windows SPB 64-bit Edition
+# version 17.4
+
+setwindow pcb
+trapsize 22250
+generaledit
+#QtSignal CVPLayerGrid CVPAllConductors clicked true
+#QtSignal CVPLayerGrid CVPAllPlanes clicked true
+color -vis 'package geometry/silkscreen_top'
+color -vis 'package geometry/silkscreen_bottom'
+color -vis 'Etch'
+color -vis 'pin'
+color -vis 'via class'
+color -vis 'drc'
+
+#	stop time: Wed Jun 15 16:20:32 2022

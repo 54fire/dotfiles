@@ -1,0 +1,18 @@
+# Allegro script
+#	file: F:/PCB/allegro/IPC-GAME-2017-V100/PCB/db_doctor.scr
+#	start time: Thu May 07 19:52:05 2020
+#	Version: 16.6-2015 S102 (v16-6-112HN) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 4582
+placementedit
+dbdoctor 
+setwindow form.dbdoctor_allegro
+FORM dbdoctor_allegro drc YES 
+FORM dbdoctor_allegro shapes YES 
+FORM dbdoctor_allegro xnets YES 
+FORM dbdoctor_allegro execute  
+setwindow pcb
+
+#	stop time: Thu May 07 19:53:37 2020

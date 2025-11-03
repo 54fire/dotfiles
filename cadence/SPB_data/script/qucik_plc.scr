@@ -1,0 +1,16 @@
+# Allegro script
+#	file: F:/PCB/allegro/IPC-GAME-2017-V100/PCB/qucik_plc.scr
+#	start time: Thu May 07 20:01:24 2020
+#	Version: 16.6-2015 S102 (v16-6-112HN) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 4582
+quickplace 
+setwindow form.quickplc
+FORM quickplc place  
+FORM quickplc done  
+setwindow pcb
+placementedit 
+
+#	stop time: Thu May 07 20:02:07 2020

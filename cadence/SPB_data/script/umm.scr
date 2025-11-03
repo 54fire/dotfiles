@@ -1,0 +1,22 @@
+# Allegro script
+#	file: C:/Cadence/SPB_17.4/share/local/pcb/scripts/umm.scr
+#	start time: Wed Jun  8 14:47:00 2022
+#	Version: 17.4-2019 S029 (4026063) Windows SPB 64-bit Edition
+version 17.4
+
+setwindow pcb
+trapsize 34
+generaledit
+prmed 
+setwindow form.prmedit
+FORM prmedit design  
+FORM prmedit units Millimeter 
+FORM prmedit apply  
+setwindow pcb
+trapsize 874
+setwindow form.prmedit
+FORM prmedit done  
+setwindow pcb
+generaledit 
+
+#	stop time: Wed Jun  8 14:47:25 2022

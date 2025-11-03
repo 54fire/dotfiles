@@ -1,0 +1,5 @@
+脚本一般在这个安装路径下。复制到这个路径下即可。
+C:\Cadence\SPB_17.4\share\local\pcb\scripts
+
+
+SPB_17.4 是版本号，不同版本自己找对应路径下

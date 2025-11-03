@@ -1,0 +1,598 @@
+[16:25:19.003272] periodic Lic check successful
+[16:25:19.003272] Feature usage summary:
+[16:25:19.016576]  Capture  
+[16:25:19.176823]   OrCAD_Capture_CIS_option  
+
+PATH VARIABLE
+
+d:\cadence\spb_24.1\share\orApps\OrCaptureApp\..\..\..\tools\bin
+d:\cadence\spb_24.1/tools/jre/bin/client
+d:\cadence\spb_24.1\tools\bin\
+C:\Program Files (x86)\VMware\VMware Workstation\bin\
+C:\Program Files\Python311\Scripts\
+C:\Program Files\Python311\
+D:\Cadence\SPB_24.1\tools\bin
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\WINDOWS\System32\OpenSSH\
+C:\Program Files\usbipd-win\
+C:\Program Files\Meld\
+C:\Program Files\Git\cmd
+C:\Program Files\dotnet\
+C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
+C:\Users\54fire\AppData\Local\Microsoft\WindowsApps
+C:\Users\54fire\AppData\Local\Programs\Microsoft VS Code\bin
+C:\Users\54fire\AppData\Local\Programs\cursor\resources\app\bin
+C:\Program Files\JetBrains\PyCharm 2025.1\bin
+C:\Users\54fire\.dotnet\tools
+D:\Cadence\SPB_24.1\tools\bin
+
+SESSION LOG
+
+INI File Location:C:\Users\54fire\.config\cadence\SPB_data\cdssetup\OrCAD_Capture/24.1.0/capture.iniComponent Cache:1
+COMMAND WINDOW
+
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/Gyro.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPFMConnectorAppInit.tcl
+Ignored explicit loading of orDB_Dll package
+Ignored explicit loading of orDB_Dll package
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedAnnotationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedSaveInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAnnotateHBlockPageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAppLaunchMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAssociatePSpiceModel.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoAddOnModels.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDemoBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignDifference.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignView.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoFileOperationUtil.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoISCFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoLiveBOM.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoNewPcbEditorBoard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrCloudSync.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrcadxSoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPDFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBJT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlCounter.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlIGBT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlJFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlMOSFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlPassives.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlRegister.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPartSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEco.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEcoSetup.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbReportMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPulseLoad.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoSymbolExtractor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoTISupport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXMLImportExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXProbeEvents.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorEventTracker.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorTISoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorUnifiedCIS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutopspSimSetting.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCEFInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCISBOMGenerationOnSave.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCMConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCadenceLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCheckPackageOnPartWindowClose.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloseAllChildWindows.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloudMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCommunicationServerInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomPageCreationUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizeNetONLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizePageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDevicePinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDiffAndMergeInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFileManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindAndReplaceInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWindowExtension.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWndConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFootprintViewer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHangingWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHybridTestInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capInvalidPinNumberInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capLibraryCorrectionInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capMorePreferences.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capNewComponent.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capObjectAlignmentInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOpenLibDesignListInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOrCADStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOverlapWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpPartPick.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppA.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppCapacitor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppInductor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerMosfet.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppSwitch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTVS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTransformer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppVCO.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpicePWLExtractorApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClient.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceSourceApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPWLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPartReferencePrefixMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPhysicalShortedPackShortInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPortPinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProcessDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProjectManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPspiceModelingAppFrameworkInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capReplacePathCacheUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSharedWorkspace.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capShortedDiscretePartInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSymbolEditorConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTCLMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTI_URLDownload.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capULLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capUnifiedSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWebPageActions.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceDashboard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/caplearningresources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/cappspicemodelappled.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orDumpPageImage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orEagleImportInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orFlowInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orPrmAutomationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orSyncUtilHttp.tcl
+
+
+
+[16:43:46.003272] periodic Lic check successful
+[16:43:46.003272] Feature usage summary:
+[16:43:46.016576]  Capture  
+[16:43:46.176823]   OrCAD_Capture_CIS_option  
+
+SESSION LOG
+
+INI File Location:C:\Users\54fire\.config\cadence\SPB_data\cdssetup\OrCAD_Capture/24.1.0/capture.iniComponent Cache:1
+COMMAND WINDOW
+
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/Gyro.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPFMConnectorAppInit.tcl
+Ignored explicit loading of orDB_Dll package
+Ignored explicit loading of orDB_Dll package
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedAnnotationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedSaveInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAnnotateHBlockPageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAppLaunchMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAssociatePSpiceModel.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoAddOnModels.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDemoBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignDifference.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignView.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoFileOperationUtil.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoISCFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoLiveBOM.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoNewPcbEditorBoard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrCloudSync.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrcadxSoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPDFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBJT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlCounter.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlIGBT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlJFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlMOSFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlPassives.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlRegister.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPartSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEco.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEcoSetup.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbReportMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPulseLoad.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoSymbolExtractor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoTISupport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXMLImportExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXProbeEvents.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorEventTracker.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorTISoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorUnifiedCIS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutopspSimSetting.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCEFInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCISBOMGenerationOnSave.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCMConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCadenceLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCheckPackageOnPartWindowClose.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloseAllChildWindows.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloudMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCommunicationServerInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomPageCreationUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizeNetONLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizePageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDevicePinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDiffAndMergeInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFileManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindAndReplaceInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWindowExtension.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWndConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFootprintViewer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHangingWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHybridTestInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capInvalidPinNumberInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capLibraryCorrectionInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capMorePreferences.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capNewComponent.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capObjectAlignmentInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOpenLibDesignListInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOrCADStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOverlapWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpPartPick.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppA.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppCapacitor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppInductor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerMosfet.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppSwitch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTVS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTransformer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppVCO.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpicePWLExtractorApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClient.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceSourceApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPWLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPartReferencePrefixMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPhysicalShortedPackShortInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPortPinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProcessDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProjectManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPspiceModelingAppFrameworkInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capReplacePathCacheUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSharedWorkspace.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capShortedDiscretePartInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSymbolEditorConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTCLMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTI_URLDownload.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capULLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capUnifiedSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWebPageActions.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceDashboard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/caplearningresources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/cappspicemodelappled.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orDumpPageImage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orEagleImportInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orFlowInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orPrmAutomationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orSyncUtilHttp.tcl
+
+
+
+[16:50:02.003192] periodic Lic check successful
+[16:50:02.003192] Feature usage summary:
+[16:50:02.016496]  Capture  
+[16:50:02.176743]   OrCAD_Capture_CIS_option  
+
+SESSION LOG
+
+INI File Location:C:\Users\54fire\.config\cadence\SPB_data\cdssetup\OrCAD_Capture/24.1.0/capture.iniComponent Cache:1
+COMMAND WINDOW
+
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/Gyro.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPFMConnectorAppInit.tcl
+Ignored explicit loading of orDB_Dll package
+Ignored explicit loading of orDB_Dll package
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedAnnotationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedSaveInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAnnotateHBlockPageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAppLaunchMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAssociatePSpiceModel.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoAddOnModels.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDemoBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignDifference.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignView.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoFileOperationUtil.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoISCFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoLiveBOM.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoNewPcbEditorBoard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrCloudSync.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrcadxSoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPDFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBJT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlCounter.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlIGBT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlJFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlMOSFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlPassives.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlRegister.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPartSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEco.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEcoSetup.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbReportMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPulseLoad.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoSymbolExtractor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoTISupport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXMLImportExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXProbeEvents.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorEventTracker.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorTISoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorUnifiedCIS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutopspSimSetting.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCEFInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCISBOMGenerationOnSave.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCMConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCadenceLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCheckPackageOnPartWindowClose.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloseAllChildWindows.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloudMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCommunicationServerInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomPageCreationUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizeNetONLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizePageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDevicePinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDiffAndMergeInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFileManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindAndReplaceInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWindowExtension.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWndConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFootprintViewer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHangingWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHybridTestInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capInvalidPinNumberInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capLibraryCorrectionInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capMorePreferences.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capNewComponent.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capObjectAlignmentInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOpenLibDesignListInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOrCADStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOverlapWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpPartPick.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppA.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppCapacitor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppInductor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerMosfet.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppSwitch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTVS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTransformer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppVCO.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpicePWLExtractorApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClient.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceSourceApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPWLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPartReferencePrefixMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPhysicalShortedPackShortInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPortPinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProcessDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProjectManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPspiceModelingAppFrameworkInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capReplacePathCacheUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSharedWorkspace.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capShortedDiscretePartInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSymbolEditorConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTCLMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTI_URLDownload.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capULLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capUnifiedSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWebPageActions.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceDashboard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/caplearningresources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/cappspicemodelappled.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orDumpPageImage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orEagleImportInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orFlowInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orPrmAutomationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orSyncUtilHttp.tcl
+
+
+
+Lic Summary:
+[16:53:41.001192] cdslmd servers: 5280@localhost
+[16:53:41.001192] Feature usage summary:
+[16:53:41.012239]   OrCAD_Capture_CIS_option  
+[16:53:41.016544]  Capture  
+
+SESSION LOG
+
+INI File Location:C:\Users\54fire\.config\cadence\SPB_data\cdssetup\OrCAD_Capture/24.1.0/capture.iniComponent Cache:1
+COMMAND WINDOW
+
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/Gyro.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPFMConnectorAppInit.tcl
+Ignored explicit loading of orDB_Dll package
+Ignored explicit loading of orDB_Dll package
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/OrPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedAnnotationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAdvancedSaveInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAnnotateHBlockPageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAppLaunchMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAssociatePSpiceModel.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoAddOnModels.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDemoBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignDifference.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoDesignView.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoFileOperationUtil.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoISCFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoLiveBOM.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoNewPcbEditorBoard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrCloudSync.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoOrcadxSoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPDFExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlAND.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppMdlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBJT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlBUF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlConstant.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlCounter.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDigitalSources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlIGBT.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlJFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlMOSFET.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlPassives.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlRegister.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlTFF.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlXOR.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPSpiceModelAppPwlZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPartSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEco.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbEcoSetup.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPcbReportMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoPulseLoad.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoSymbolExtractor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoTISupport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXMLImportExport.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoXProbeEvents.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorEventTracker.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorTISoftwareUpdateUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutoorUnifiedCIS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capAutopspSimSetting.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCEFInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCISBOMGenerationOnSave.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCMConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCadenceLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCheckPackageOnPartWindowClose.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloseAllChildWindows.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCloudMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCommunicationServerInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomPageCreationUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizeNetONLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capCustomizePageInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDRCConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDevicePinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capDiffAndMergeInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFileManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindAndReplaceInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWindowExtension.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFindWndConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capFootprintViewer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHangingWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capHybridTestInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capInvalidPinNumberInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capLibraryCorrectionInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capMorePreferences.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capNewComponent.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capObjectAlignmentInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOpenLibDesignListInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOrCADStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capOverlapWiresInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpPartPick.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppA.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppCapacitor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppInductor.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerDiode.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppPowerMosfet.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppSwitch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTVS.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppTransformer.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppVCO.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelAppZener.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceModelBrowser.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpicePWLExtractorApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClient.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceServerClientOperation.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPSpiceSourceApp.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPWLInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPartReferencePrefixMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPhysicalShortedPackShortInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPortPinMismatchInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProcessDRCInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capProjectManager.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capPspiceModelingAppFrameworkInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capReplacePathCacheUtilInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSharedWorkspace.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capShortedDiscretePartInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capStartPage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capSymbolEditorConfigInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTCLMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capTI_URLDownload.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capULLoginUI.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capUnifiedSearch.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWebPageActions.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceDashboard.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/capWorkspaceMenu.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/caplearningresources.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/cappspicemodelappled.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orDumpPageImage.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orEagleImportInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orFlowInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orPrmAutomationInit.tcl
+Loading D:/Cadence/SPB_24.1/tools/capture/tclscripts/capAutoLoad/orSyncUtilHttp.tcl
+
+

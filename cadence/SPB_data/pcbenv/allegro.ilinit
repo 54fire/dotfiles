@@ -1,0 +1,7 @@
+setSkillPath(buildString(append1(getSkillPath() "~/pcbenv")))
+load("xgallegro1.il" "www.pcb3.com")
+load("xgallegro2.il" "www.pcb3.com")
+load("xgallegro3.il" "www.pcb3.com")
+load("xgallegro4.il" "www.pcb3.com")
+loadi(strcat(getShellEnvVar("FyEnhanceTool") "\\skill\\FYEnhanceMenu.il"))
+when(isCallable('GTSys_Trigeren) GTSys_Trigeren(t))

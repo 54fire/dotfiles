@@ -1,0 +1,205 @@
+source $TELENV
+
+#--------------------------------------------------------------------
+# Aliases
+
+#--------------------------------------------------------------------
+# Bind roam operations to function keys
+set roamInc = 96
+
+# NEW STYLE FUNCTION KEY ALIASES
+# F1 is normally reserved by the system for Help so we don't use it
+alias F2 rats component
+alias F3 unrats component
+alias F4 rats net
+alias F5 unrats net
+alias F6 property edit
+alias F7 draft fillet
+alias F9 shape
+alias F10 pop swap
+alias F11 replace padstack
+alias F12 oops
+alias Pgup zoom in
+alias Pgdown  zoom out
+alias ~N new
+alias ~O open
+alias ~F mirror
+alias ~Q show element
+alias ~B zoom fit
+alias ~Y redo
+alias ~Z undo
+
+
+funckey w add connect
+funckey s slide
+funckey d delete
+funckey a oops
+
+funckey Esc done
+
+funckey e move
+funckey " " angle 90
+funckey h assign color
+funckey n dehilight
+
+
+funckey c copy  
+funckey f show measure
+funckey 1 change
+funckey 2 spread between voids
+funckey 3 spin
+funckey t delay tune
+funckey p phase_tune
+
+funckey k scalpel
+funckey y tvision
+funckey u resize_respace_dp
+funckey o aicc
+funckey va custom smooth
+funckey vb shape merge shapes
+funckey vc shape select
+funckey vd shape void delete
+funckey ve shape void element
+funckey vf pop neck mode
+funckey vg pop singletrace
+funckey bd xasym
+
+funckey vv shape edit boundary
+funckey vs pop swap
+funckey vt pop mirror
+funckey vw shape change type
+
+funckey br swap components
+funckey bd xasym
+funckey bq create fanout
+funckey bg change_net_onvias
+funckey b4 shape add circle
+funckey b5 shape add rect
+funckey b5 shape add rect
+funckey b1 c2s
+funckey b2 split_shape
+funckey bc mc_ref
+funckey br ro_text
+funckey bk Check_Dir
+funckey bh ch_text_overlap
+funckey bm conv
+funckey bs swap components
+    
+
+
+funckey vr replay tools_dg_l.scr
+funckey vz replay tools_sum.scr
+funckey vq replay dis_staus.scr
+funckey bi replay db_doctor.scr
+funckey vn replay net_sig.scr
+funckey 4 replay userpick.scr 
+funckey 5 replay rotate45.scr 
+funckey 6 replay rotateall45.scr 
+funckey bp replay qucik_plc.scr
+funckey b3 replay up_shape.scr
+
+
+
+
+
+ 
+funckey .5 options acon_line_width 5
+funckey .6 options acon_line_width 6
+funckey .7 options acon_line_width 7
+funckey .8 options acon_line_width 8
+funckey .9 options acon_line_width 9
+funckey .10 options acon_line_width 10
+funckey .12 options acon_line_width 12
+funckey .15 options acon_line_width 15
+funckey .20 options acon_line_width 20
+funckey .30 options acon_line_width 30
+funckey .40 options acon_line_width 40
+
+funckey 01 c_layer 1
+funckey 02 c_layer 2
+funckey 03 c_layer 3
+funckey 04 c_layer 4
+funckey 05 c_layer 5
+funckey 06 c_layer 6
+funckey 07 c_layer 7
+funckey 08 c_layer 8
+funckey 09 c_layer 9
+funckey v0 c_layer 10
+funckey v1 c_layer 11
+funckey v2 c_layer 12
+funckey v3 c_layer 13
+funckey v4 c_layer 14
+funckey v5 c_layer 15
+funckey v6 c_layer 16
+
+
+
+
+alias zz Replay zz.scr
+
+#下面这两句句是滚轮上下时界面上下移动，而不是放大缩小
+button wheel_up "roam y -$roamInc"
+button wheel_down "roam y $roamInc"
+
+#下面这两句句是 Ctrl+滚轮界面放大缩小
+button Cwheel_up "zoom in $buttonfactor"
+button Cwheel_down "zoom out $buttonfactor"
+
+#下面这两句句是shift+滚轮界面左右移动
+button Swheel_up      "roam x -$roamInc"
+button Swheel_down     "roam x $roamInc"
+
+
+
+#--------------------------------------------------------------------
+# OTHER ALIASES	
+
+alias ix ipick
+alias Left ix -1
+alias Right ix 1
+alias up iy 1
+alias down iy -1
+
+
+# autoroam
+alias sar set pcb_autoroam
+alias uar unset pcb_autoroam
+
+#--------------------------------------------------------------------
+# COMMAND DEFAULTS
+# allow slide to work on arcs by default
+set slide_arcs
+
+# Compatibility aliases
+alias window	zoom
+alias hilite	hilight
+alias dehilite	dehilight
+
+set autosave
+set autosave_time 10
+set autosave_time saved
+
+
+
+alias ref mc_ref
+alias lib dumplib
+alias add- EDA365_APP001
+
+alias sel set allegro_etch_length_on
+alias uel unset allegro_etch_length_on
+
+
+set old_style_flash_symbols=1
+set logic_edit_enabled=1
+### User Preferences section
+### This section is computer generated.
+### Please do not modify to the end of the file.
+### Place your hand edits above this section.
+###
+set hide_unified_filter_dialog
+set ads_sdart = gerber
+set scriptpath = C:/Users/54fire/.config/cadence/SPB_data/script
+set shape_layer_visibility_env
+set steppath = $steppath C:/Users/54fire/Desktop/usbhub/step
+set psmpath = C:/Users/54fire/Desktop/NTPCB_251001_PRJ2/lib
+set padpath = C:/Users/54fire/Desktop/NTPCB_251001_PRJ2/lib

@@ -1,0 +1,17 @@
+\t (00:00:00) dbdoctor_ui 24.1 S006 (4326263) [7/24/2025] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Nov  2 16:26:48 2025
+\t (00:00:00)         Host=54FIRE User=54fire Pid=26328 CPUs=20
+\t (00:00:00) CmdLine= D:\Cadence\SPB_24.1\tools\bin\dbdoctor_ui.exe
+\t (00:00:00) 
+\i (00:00:02) setwindow form.dbdoctor
+\i (00:00:02) FORM dbdoctor browse  
+\i (00:00:08) fillin "C:/Users/54fire/Desktop/02_H1R0_V10_20211230/RK3588_Template_LP4XD200P232SD8_41R0X41R0_2133MHz_H1R0_V10_20211230.brd"
+\i (00:00:08) cd "C:/Users/54fire/Desktop/02_H1R0_V10_20211230"
+\i (00:00:10) FORM dbdoctor execute  
+\t (00:00:10) Dbdoctor in progress - wait...
+\w (00:00:16) Dbdoctor commpleted with warnings.
+\i (00:00:21) FORM dbdoctor close  
+\e (00:00:21) Program has encountered a problem and must exit. The design will be saved as a .SAV file that can be recovered using dbdoctor (if applicable). To resolve problem, first obtain the latest software update from Cadence and if the problem persists contact Cadence Customer Support. In addition to the data Cadence support requests; please provide the MiniDump files found in folder "C:/Users/54fire/Desktop/02_H1R0_V10_20211230".
+\i (00:00:21) fillin confirm
+\t (00:00:21) No design is open yet, so no .SAV file will be created.
+\i (00:00:21) fillin confirm

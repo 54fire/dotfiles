@@ -1,0 +1,69 @@
+\t (00:00:00) padstack_editor 24.1 S006 (4326263) [7/24/2025] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sat Oct 25 12:01:05 2025
+\t (00:00:00)         Host=54FIRE User=54fire Pid=10536 CPUs=20
+\t (00:00:00) CmdLine= D:\Cadence\SPB_24.1\tools\bin\padstack_editor.exe
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent PadstackTypes currentRowChanged 2
+\d (00:00:03) QtSignal GuidedTabsParent PadstackTypes itemSelectionChanged Via
+\d (00:00:03) QtSignal GuidedTabsParent PadstackTypes itemClicked Via
+\d (00:00:06) QtSignal GuidedTabsParent PadstackTypes itemClicked Via
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:18) QtSignal GuidedDrillTab holeXSize editingFinished "12.0"
+\d (00:00:18) QtSignal GuidedTabsParent GuidedDrillTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:30) QtSignal GuidedTabsParent GuidedDrillTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:45) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:49) QtSignal GuidedDrillSymbol FigureType CurrentIndexChanged Circle
+\d (00:00:53) QtSignal GuidedTabsParent GuidedDrillSymbol keyPressEvent 16777248 33554432 false +
+\d (00:00:53) QtSignal 1
+\d (00:00:53) QtSignal GuidedDrillSymbol DrillCharacters editingFinished A
+\d (00:00:55) QtSignal GuidedDrillSymbol FigureDiameter editingFinished "12.0"
+\d (00:00:55) QtSignal GuidedTabsParent GuidedDrillSymbol keyPressEvent 16777220 0 false 1 ""
+\d (00:00:57) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:59) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:01) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:01:01) QtSignal GuidedDesignLayersTab LayersTable cellDoubleClicked 0 "Regular Pad" 0 2
+\d (00:01:04) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Thermal Pad"
+\d (00:01:05) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Thermal Pad" 0 3
+\d (00:01:05) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:01:05) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:01:06) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:01:06) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:01:17) QtSignal GuidedDesignLayersTab PadDiameter editingFinished "24.0"
+\d (00:01:17) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777220 0 false 1 ""
+\d (00:01:21) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:01:22) QtFillin Copy
+\d (00:01:22) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:01:22) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
+\d (00:01:23) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777249 67108864 false +
+\d (00:01:23) QtSignal 1
+\d (00:01:23) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 2 "Regular Pad"
+\d (00:01:23) QtFillin Paste
+\d (00:01:23) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 86 67108864 false 1 +
+\d (00:01:23) QtSignal ""
+\d (00:01:24) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:01:28) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:01:28) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
+\d (00:01:29) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:01:29) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:01:30) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:01:30) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
+\d (00:01:32) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:01:36) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:41) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:01:46) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:01:48) QtSignal MainWindow Save triggered
+\d (00:01:53) QtSignal pseCheckBrowser Save clicked
+\d (00:01:55) QtFillin ""
+\d (00:01:56) QtSignal pseCheckBrowser Close clicked
+\d (00:01:59) QtFillin No
+\d (00:02:01) QtSignal GuidedSummaryTab Save clicked
+\d (00:02:08) QtFillin ""
+\d (00:02:11) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:02:12) QtSignal MainWindow Save triggered
+\d (00:02:23) QtSignal pseCheckBrowser Print clicked
+\d (00:02:27) QtSignal pseCheckBrowser Close clicked
+\d (00:02:29) QtFillin Yes
+\d (00:03:01) QtSignal MainWindow AQFileDialog finished 1
+\d (00:03:01) QtFillin "C:/Users/54fire/Downloads/NTpcb_PRJ1/GL850_lib/lib/via12_24.pad"
+\d (00:03:09) QtSignal MainWindow Exit triggered
+\t (00:03:09)     Journal end - Sat Oct 25 12:04:13 2025

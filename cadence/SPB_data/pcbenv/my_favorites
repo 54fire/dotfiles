@@ -1,0 +1,4 @@
+SUMMARY:HELP=User Favorite Settings.
+
+shape_layer_visibility_env:TYPE=CHECK:EFF_ONRESTART:HELP=Set to see 'Shp' (Shapes) column in the visibility tab to control visibility of etch shapes. When enabled, column can be used to toggle the shape display on or off on the given layer separate from clines and other metal. By default, shape visibility is toggled with all other ETCH class objects.
+

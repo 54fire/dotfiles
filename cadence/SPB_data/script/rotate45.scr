@@ -1,0 +1,14 @@
+# Allegro script
+#	file: F:/project/Allegro/2020/5/pcie_hlink_v1_0-0430b/REF/rotate45.scr
+#	start time: Sat May 09 15:19:38 2020
+#	Version: 16.6-2015 S102 (v16-6-112HN) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 10298
+spin 
+setwindow form.mini
+FORM mini angle 45.000 
+setwindow pcb
+
+#	stop time: Sat May 09 15:19:51 2020

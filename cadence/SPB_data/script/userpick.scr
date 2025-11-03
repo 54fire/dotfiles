@@ -1,0 +1,18 @@
+# Allegro script
+#	file: F:/project/Allegro/2020/5/pcie_hlink_v1_0-0430b/PCB/finish/PCB/userpick.scr
+#	start time: Mon May 11 13:20:16 2020
+#	Version: 16.6-2015 S102 (v16-6-112HN) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 547
+move 
+setwindow form.mini
+FORM mini angle 90.00 
+FORM mini rotate_point User Pick 
+setwindow form.find
+FORM find all_off  
+FORM find symbols YES 
+setwindow pcb
+
+#	stop time: Mon May 11 13:20:34 2020

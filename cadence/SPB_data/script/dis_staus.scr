@@ -1,0 +1,13 @@
+# Allegro script
+#	file: F:/PCB/allegro/IPC-GAME-2017-V100/PCB/dis_staus.scr
+#	start time: Thu May 07 19:51:45 2020
+#	Version: 16.6-2015 S102 (v16-6-112HN) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 4582
+placementedit
+status 
+placementedit 
+
+#	stop time: Thu May 07 19:51:53 2020
