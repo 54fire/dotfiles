@@ -145,3 +145,4 @@ fi
 alias vim="nvim"
 alias lg="lazygit"
 export PATH=$PATH:/root/bin/
+alias docker-clean-none='docker rmi $(docker images -f "dangling=true" -q)'
