@@ -5,27 +5,27 @@ echo ============================================
 echo Setting up Cadence SPB environment...
 echo ============================================
 
-REM å½“å‰è„šæœ¬æ‰€åœ¨ç›®å½•
+REM µ±Ç°½Å±¾ËùÔÚÄ¿Â¼
 set SCRIPT_DIR=%~dp0
 
-REM ç›®æ ‡é…ç½®ç›®å½•
+REM Ä¿±êÅäÖÃÄ¿Â¼
 set CONFIG_DIR=%USERPROFILE%\.config\cadence
 set TARGET_LINK=%CONFIG_DIR%\SPB_data
 set SOURCE_DIR=%SCRIPT_DIR%SPB_data
 
-REM å¦‚æœç›®æ ‡ç›®å½•ä¸å­˜åœ¨åˆ™åˆ›å»º
+REM Èç¹ûÄ¿±êÄ¿Â¼²»´æÔÚÔò´´½¨
 if not exist "%CONFIG_DIR%" (
     echo Creating directory: %CONFIG_DIR%
     mkdir "%CONFIG_DIR%"
 )
 
-REM å¦‚æœç¬¦å·é“¾æ¥å·²å­˜åœ¨åˆ™åˆ é™¤
+REM Èç¹û·ûºÅÁ´½ÓÒÑ´æÔÚÔòÉ¾³ı
 if exist "%TARGET_LINK%" (
     echo Removing existing link: %TARGET_LINK%
     rmdir "%TARGET_LINK%"
 )
 
-REM åˆ›å»ºç¬¦å·é“¾æ¥ï¼ˆéœ€è¦ç®¡ç†å‘˜æƒé™ï¼‰
+REM ´´½¨·ûºÅÁ´½Ó£¨ĞèÒª¹ÜÀíÔ±È¨ÏŞ£©
 echo Creating symbolic link...
 mklink /D "%TARGET_LINK%" "%SOURCE_DIR%"
 if %errorlevel% neq 0 (
@@ -34,7 +34,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-REM è®¾ç½®ç¯å¢ƒå˜é‡
+REM ÉèÖÃ»·¾³±äÁ¿
 setx HOME "%TARGET_LINK%"
 echo Environment variable HOME set to %TARGET_LINK%
 
@@ -42,10 +42,10 @@ echo ============================================
 echo Installing FanySkill software...
 echo ============================================
 
-REM é»˜è®¤è½¯ä»¶åï¼Œå¯ä¿®æ”¹
+REM Ä¬ÈÏÈí¼şÃû£¬¿ÉĞŞ¸Ä
 set INSTALLER=FanySkill_V2.1.0.exe
 
-REM å¦‚æœæœ‰å…¶ä»–åå­—çš„å®‰è£…åŒ…å¯ä»¥ä¿®æ”¹æ­¤å˜é‡
+REM Èç¹ûÓĞÆäËûÃû×ÖµÄ°²×°°ü¿ÉÒÔĞŞ¸Ä´Ë±äÁ¿
 if not exist "%SCRIPT_DIR%%INSTALLER%" (
     echo Installer "%INSTALLER%" not found in %SCRIPT_DIR%.
     echo Please place the installer in the same folder as this script.
@@ -53,7 +53,7 @@ if not exist "%SCRIPT_DIR%%INSTALLER%" (
     exit /b 1
 )
 
-REM è¿è¡Œå®‰è£…ç¨‹åº
+REM ÔËĞĞ°²×°³ÌĞò
 echo Running installer...
 start "" "%SCRIPT_DIR%%INSTALLER%"
 
