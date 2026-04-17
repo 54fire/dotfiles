@@ -7,7 +7,7 @@
 	pager = less -RSFX
 
 [credential]
-    helper = store
+	helper = store
 
 [alias]
 	clean-merged = !git branch --merged main | grep -vE '^\\*|main|master' | xargs git branch -d
@@ -20,3 +20,13 @@
 [difftool "bc"]
   cmd = '/mnt/c/Softwares/BeyondCompare5/BCompare.exe' $(wslpath -am $LOCAL) $(wslpath -am $REMOTE)
 
+[safe]
+	directory = /workspaces/dk-hwjs
+	directory = /workspaces/dk-hwjs/esp-iot-solution
+	directory = /workspaces/dk-hwjs/moddable
+	directory = /workspaces/dk-hwjs/src/dk-terminal/src/xprotocol
+	directory = /workspaces/dk-hwjs/thrid_party/open_vins
+	directory = /workspaces/dk-hwjs2
+	directory = /workspaces/dk-hwjs2/esp-iot-solution
+	directory = /workspaces/dk-hwjs2/moddable
+	directory = /workspaces/dk-hwjs2/src/dk-terminal/src/xprotocol

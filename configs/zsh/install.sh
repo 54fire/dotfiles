@@ -30,9 +30,24 @@ install_plugin() {
   fi
 }
 
+install_theme() {
+  local repo_url=$1
+  local theme_name=$(basename -s .git "$repo_url")
+  local theme_path=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/${theme_name}
+
+  if [ ! -d "$theme_path" ]; then
+    echo "Installing $theme_name theme..."
+    git clone --depth=1 $repo_url $theme_path
+  else
+    echo "$theme_name theme already installed."
+  fi
+}
+
 # install plugins
 install_plugin "https://github.com/zsh-users/zsh-autosuggestions.git"
 install_plugin "https://github.com/zsh-users/zsh-syntax-highlighting.git"
+
+install_theme "https://github.com/romkatv/powerlevel10k.git"
 
 if ! command -v fzf &> /dev/null; then
   sudo apt install fzf -y

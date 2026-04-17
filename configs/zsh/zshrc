@@ -8,7 +8,8 @@ export ZSH="/root/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="ys"
+# ZSH_THEME="xiong-chiamiov"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -79,6 +80,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# starship
+eval "$(starship init zsh)"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -144,5 +148,59 @@ fi
 ## 通用配置
 alias vim="nvim"
 alias lg="lazygit"
-export PATH=$PATH:/root/bin/
+
+if [ -d "/root/bin" ] ; then
+  for dir in /root/bin/*/ ; do
+    export PATH=$PATH:$dir
+  done
+fi
+
 alias docker-clean-none='docker rmi $(docker images -f "dangling=true" -q)'
+
+# 默认显示 icons： 
+alias ls="exa"
+# 显示文件目录详情
+alias ll="exa --icons --long --header"
+# 显示全部文件目录，包括隐藏文件
+alias la="exa --icons --long --header --all"
+# 显示详情的同时，附带 git 状态信息
+alias lg="exa --icons --long --header --all --git"
+# 替换 tree 命令
+alias tree="exa --tree --icons"
+export EXA_COLORS="\
+di=34:\
+ln=36:\
+ex=32:\
+*.c=0:\
+*.h=0:\
+*.S=0:\
+*.ld=0"
+
+glogf() {
+  local file="$1"
+
+  if [[ -z "$file" ]]; then
+    echo "Usage: glogf <file>"
+    return 1
+  fi
+
+  git log --all \
+    --date=short \
+    --pretty=format:"\
+%C(bold yellow)%h%C(reset)  \
+%C(green)%ad%C(reset)  \
+%C(cyan)%<(12,trunc)%an%C(reset)  \
+%C(white)%<(60,trunc)%s%C(reset)" \
+    -- "$file" \
+  | fzf --ansi \
+      --delimiter=" " \
+      --preview "git -c core.pager=cat --no-pager show --color=always {1} -- \"$file\"" \
+      --preview-window=right:70%
+}
+
+# if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    # tmux attach -t default || tmux new -s default
+# fi
+# source /opt/esp/entrypoint.sh
+# export LANG=en_US.UTF-8
+# export LC_ALL=en_US.UTF-8
